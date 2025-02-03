@@ -1,0 +1,16 @@
+# user.py
+
+def main():
+    user_info = {}
+    
+    user_info["name"] = input("What is user's name? ")
+    user_info["age"] = input("What is user's age? ")
+    user_info["country"] = input("What is user's country of birth? ")
+    user_info["known_for"] = input("What is the user known for? ")
+    
+    print("\nUser Information:")
+    for key, value in user_info.items():
+        print(f"{key.capitalize()}: {value}")
+
+if __name__ == "__main__":
+    main()
