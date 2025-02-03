@@ -10,3 +10,15 @@ print("Type of myfamily:", type(myfamily))
 # 2. Access tuple items 'sister' using index numbers
 print("First 'sister':", myfamily[2])  # The first 'sister' is at index 2
 print("Second 'sister':", myfamily[4]) # The second 'sister' is at index 4
+
+# 3. Check whether we can add an item "me" using the append() method
+try:
+    myfamily.append("me")  # Tuples do not support append
+except AttributeError as e:
+    print("Error:", e)
+
+# 4. Check whether we can remove the item "brother" using the pop() method
+try:
+    myfamily.pop()  # Tuples do not support pop either
+except AttributeError as e:
+    print("Error:", e)
