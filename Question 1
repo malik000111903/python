@@ -1,0 +1,12 @@
+# Define the tuple
+myfamily = ("mother", "father", "sister", "brother", "sister")
+
+# Print the tuple
+print(myfamily)
+
+# 1. Use type() to check the type of the object myfamily
+print("Type of myfamily:", type(myfamily))
+
+# 2. Access tuple items 'sister' using index numbers
+print("First 'sister':", myfamily[2])  # The first 'sister' is at index 2
+print("Second 'sister':", myfamily[4]) # The second 'sister' is at index 4
