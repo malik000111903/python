@@ -1,0 +1,14 @@
+# Define the dictionary
+laptop = {"brand": "dell", "model": "alienware", "year": 2010}
+
+# 1. Print the brand value of the dictionary
+print("Laptop brand:", laptop["brand"])
+
+# 2. Add new information (key: value) using a boolean data type
+laptop["home"] = True
+
+# 3. Modify the value of the key 'year' to 2019
+laptop["year"] = 2019
+
+# Print the updated dictionary to verify changes
+print("Updated laptop dictionary:", laptop)
